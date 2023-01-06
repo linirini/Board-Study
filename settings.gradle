@@ -1,0 +1,9 @@
+rootProject.name = 'board-study'
+
+include 'application'
+include 'userservice'
+include 'memoryrepository'
+include 'domain'
+include 'articleservice'
+include 'application'
+
