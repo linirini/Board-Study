@@ -40,13 +40,3 @@ ATDD(Acceptance Test Driven Development)로 게시판 만들기
     
 8. MemoryDatabase랑 MemoryUserRepository(spi implemented) 구현
 9. application으로 돌아와 request, response, controller 구현
-
-## ****************FeedBack****************
-
-- Service가 Domain을 직접 사용하면 안됨 : 의존성 방향 오류 : UML 잘봐라
-- User에 Author는 종속된다.
-- Domain에 직접 접근이 아닌 AuthorDto를 통해 접근해야한다.
-- Dto 사용 목적을 제대로 이해하라
-- 테스트에서는 내가 지금 무엇을 테스트하고자 하고, 그렇기에 어떤 정보가 미리 주어져야 하는건지 제대로 이해하자.
-- 마찬가지로, Author를 위한 Request와 Response는 따로 존재해야한다.
-- SDP, SAP 공부해보기
